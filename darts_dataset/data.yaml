@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [2, 3]
+flip_idx: [0, 1]
+
+nc: 1
+names: ['Dart']
+
+roboflow:
+  workspace: dartboards-pamea
+  project: dart-detection-0duhw
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/dartboards-pamea/dart-detection-0duhw/dataset/3
